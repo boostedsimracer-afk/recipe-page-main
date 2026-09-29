@@ -1,80 +1,137 @@
-@media (max-width: 75rem)
+@media (max-width: 1280px) 
 {
-    html
-    {
-        font-size: 50%;
-    }
-}
-
-@media (max-width: 67rem)
-{
-    html
-    {
-        font-size: 40%;
-    }
-
     .main-box
     {
-        max-width: none;
-        width: 50%;
+        width: 80%;
+    }
+    .intro h1
+    {
+        font-size: 3.5rem;
     }
 }
 
-@media (max-width: 49rem)
+@media (max-width: 1024px)
 {
-    html
+    .navbar
     {
-        font-size: 35%;
+        height: auto;
+        padding: 1rem auto;
     }
 
+    .navbar a 
+    {
+        padding: 1rem;
+        font-size: 2rem;
+    }
+}
+
+/* Small screens */
+@media (max-width: 768px)
+{
     .main-box
     {
-        max-width: none;
-        width: 50%;
+        width: 85%;
+        padding: 2.5rem;
+        margin: 3rem auto;
+    }
+
+    .navbar
+    {
+        height: auto;
+        padding: 1rem auto;
+    }
+
+    .navbar ul
+    {
+        gap: 1.5rem;
+    }
+
+    .navbar a 
+    {
+        padding: 1rem;
+        font-size: 1.6rem;
     }
 }
 
-@media (max-width: 39rem)
+/* Tiny screens */
+@media (max-width: 530px)
 {
-    html
+    .main-box
     {
-        font-size: 25%;
-    }
-}
-
-@media (max-width: 27rem)
-{
-    html
-    {
-        font-size: 20%;
+        width: 92%;
+        padding: 2rem 1.5rem;
+        margin: 1.5rem auto;
+        border-radius: 12px;
     }
 
-}
-
-@media (max-width: 27rem)
-{
-    html
+    .navbar
     {
-        font-size: 20%;
+        width: 95%;
+        top: 0.5rem;
+        border-radius: 10px;
+    }
+
+    .navbar ul
+    {
+        gap: 0.5rem;
+    }
+
+    .navbar a 
+    {
+        padding: 0.6rem 0.8rem;
+        font-size: 1.3rem;
     }
 
     .intro h1
     {
-        font-size: 3rem;
+        font-size: 2.8rem;
     }
 
+    .title-prep h2, 
+    .title-ingredients h2,
+    .title-instructions h2,
+    .NutritionDetails h2{
+        font-size: 2.2rem;
+    }
+
+    .list-prep ul,
+    .list-ingredients ul,
+    .list-instructions ol{
+        padding-left: 2rem;
+    }
+
+    .list-ingredients li,
+    .list-instructions li{
+        padding-left: 0.5rem;
+        font-size: 1.4rem;
+    }
+    
+    .caloriegrid
+    {
+        padding: 1rem 0rem;
+    }
 }
 
-@media (max-width: 18rem)
+/* Even tiny screens */
+@media (max-width: 405px)
 {
-    html
+    .main-box
     {
-        font-size: 20%;
+        border-radius: 20px;
     }
-
     .intro h1
     {
-        font-size: 2.5rem;
+        font-size: 2.2rem;
     }
 
+    .navbar a 
+    {
+        padding: 0.6rem 0.8rem;
+        font-size: 1rem;
+    }
+
+    .navbar ul
+    {
+        gap: 0.8rem;
+    }
 }
